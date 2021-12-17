@@ -1,0 +1,57 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      1160,         47]
+NotebookOptionsPosition[       842,         31]
+NotebookOutlinePosition[      1182,         46]
+CellTagsIndexPosition[      1139,         43]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Binomial", "[", 
+  RowBox[{"40", ",", "20"}], "]"}]], "Input",
+ CellChangeTimes->{{3.464379612090746*^9, 3.464379652685007*^9}}],
+
+Cell[BoxData["137846528820"], "Output",
+ CellChangeTimes->{{3.464379617058255*^9, 3.46437965305132*^9}}]
+}, Open  ]]
+},
+WindowSize->{640, 591},
+WindowMargins->{{115, Automatic}, {Automatic, 0}},
+FrontEndVersion->"7.0 for Mac OS X x86 (32-bit) (November 10, 2008)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[567, 22, 152, 3, 27, "Input"],
+Cell[722, 27, 104, 1, 27, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

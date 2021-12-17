@@ -1,0 +1,73 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      1682,         63]
+NotebookOptionsPosition[      1327,         46]
+NotebookOutlinePosition[      1667,         61]
+CellTagsIndexPosition[      1624,         58]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Max", "[", 
+  RowBox[{"Map", "[", 
+   RowBox[{"Total", ",", 
+    RowBox[{"Map", "[", 
+     RowBox[{"IntegerDigits", ",", 
+      RowBox[{"Flatten", "[", 
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"a", "^", "b"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"a", ",", "1", ",", "100"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"b", ",", "1", ",", "100"}], "}"}]}], "]"}], "]"}]}], 
+     "]"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.4648649449022512`*^9, 3.464865079112887*^9}}],
+
+Cell[BoxData["972"], "Output",
+ CellChangeTimes->{{3.4648650342732353`*^9, 3.464865079583959*^9}}]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.464865075288794*^9, 3.464865076006063*^9}}]
+},
+WindowSize->{640, 591},
+WindowMargins->{{165, Automatic}, {Automatic, 0}},
+FrontEndVersion->"7.0 for Mac OS X x86 (32-bit) (November 10, 2008)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[567, 22, 548, 15, 58, "Input"],
+Cell[1118, 39, 98, 1, 27, "Output"]
+}, Open  ]],
+Cell[1231, 43, 92, 1, 27, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
+

@@ -1,0 +1,78 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      1829,         68]
+NotebookOptionsPosition[      1509,         52]
+NotebookOutlinePosition[      1849,         67]
+CellTagsIndexPosition[      1806,         64]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"Select", "[", 
+    RowBox[{
+     RowBox[{"Map", "[", 
+      RowBox[{
+       RowBox[{"Function", "[", 
+        RowBox[{"n", ",", 
+         RowBox[{"n", " ", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"n", "-", "1"}], ")"}], "/", "2"}]}]}], "]"}], ",", 
+       RowBox[{"Range", "[", 
+        RowBox[{"2", ",", "50000"}], "]"}]}], "]"}], ",", 
+     RowBox[{"Function", "[", 
+      RowBox[{"n", ",", 
+       RowBox[{
+        RowBox[{"Length", "[", 
+         RowBox[{"Divisors", "[", "n", "]"}], "]"}], "\[GreaterEqual]", 
+        "500"}]}], "]"}]}], "]"}], "[", 
+   RowBox[{"[", "1", "]"}], "]"}], "\n"}]], "Input",
+ CellChangeTimes->{{3.4643792095414057`*^9, 3.464379209829753*^9}, {
+  3.464379269829671*^9, 3.4643792705985126`*^9}}],
+
+Cell[BoxData["76576500"], "Output",
+ CellChangeTimes->{3.464379212301158*^9, 3.464379272836584*^9, 
+  3.464379423301454*^9}]
+}, Open  ]]
+},
+WindowSize->{640, 591},
+WindowMargins->{{110, Automatic}, {Automatic, 0}},
+FrontEndVersion->"7.0 for Mac OS X x86 (32-bit) (November 10, 2008)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[567, 22, 799, 23, 58, "Input"],
+Cell[1369, 47, 124, 2, 27, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

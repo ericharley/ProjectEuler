@@ -1,0 +1,67 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      1480,         57]
+NotebookOptionsPosition[      1162,         41]
+NotebookOutlinePosition[      1502,         56]
+CellTagsIndexPosition[      1459,         53]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Permutations", "[", 
+   RowBox[{"{", 
+    RowBox[{
+    "0", ",", "1", ",", "2", ",", "3", ",", "4", ",", "5", ",", "6", ",", "7",
+      ",", "8", ",", "9"}], "}"}], "]"}], "[", 
+  RowBox[{"[", 
+   RowBox[{"10", "^", "6"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.4643799397214003`*^9, 3.4643799591310997`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "2", ",", "7", ",", "8", ",", "3", ",", "9", ",", "1", ",", "5", ",", "4", 
+   ",", "6", ",", "0"}], "}"}]], "Output",
+ CellChangeTimes->{{3.46437995113509*^9, 3.464379960071226*^9}}]
+}, Open  ]]
+},
+WindowSize->{640, 591},
+WindowMargins->{{106, Automatic}, {Automatic, 0}},
+FrontEndVersion->"7.0 for Mac OS X x86 (32-bit) (November 10, 2008)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[567, 22, 351, 9, 27, "Input"],
+Cell[921, 33, 225, 5, 27, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

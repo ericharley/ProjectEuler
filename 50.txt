@@ -1,0 +1,19 @@
+
+P[i] := Value of ith prime
+T[i] := Prime which can be written as a longest consecutive sum of terms 1 to i
+N[i] := Number of terms in the sum
+
+T[1] := 2
+N[1] := 1
+
+T[j] := Continue the previous sum, or start over
+
+T[i,j] := 
+
+T[i,i] = P[i]
+T[i,j] = -1 if i > j
+
+T[1,j] = 
+
+
+We want to know T[1,L]

@@ -1,0 +1,86 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      2019,         77]
+NotebookOptionsPosition[      1698,         61]
+NotebookOutlinePosition[      2039,         76]
+CellTagsIndexPosition[      1996,         73]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Coefficient", "[", 
+  RowBox[{
+   RowBox[{"Series", "[", 
+    RowBox[{
+     RowBox[{
+      FractionBox["1", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["x", "1"]}]], 
+      FractionBox["1", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["x", "2"]}]], 
+      FractionBox["1", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["x", "5"]}]], 
+      FractionBox["1", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["x", "10"]}]], 
+      FractionBox["1", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["x", "20"]}]], 
+      FractionBox["1", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["x", "50"]}]], 
+      FractionBox["1", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["x", "100"]}]], 
+      FractionBox["1", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["x", "200"]}]]}], ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", "0", ",", "201"}], "}"}]}], "]"}], ",", "x", ",", 
+   "200"}], "]"}]], "Input",
+ CellChangeTimes->{{3.464384887902135*^9, 3.464384918955521*^9}}],
+
+Cell[BoxData["73682"], "Output",
+ CellChangeTimes->{{3.464384908583363*^9, 3.46438492013741*^9}}]
+}, Open  ]]
+},
+WindowSize->{640, 591},
+WindowMargins->{{Automatic, 162}, {Automatic, 50}},
+FrontEndVersion->"7.0 for Mac OS X x86 (32-bit) (November 10, 2008)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[567, 22, 1015, 33, 75, "Input"],
+Cell[1585, 57, 97, 1, 27, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
